@@ -1,0 +1,46 @@
+/* Putting some space around the edges of the page */
+body {
+    background-color:#f2f2f2;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    padding: 30px;
+}
+/* My ID style for the main title at the top */
+#top-title {
+    text-align: center;
+    color:#68054e;
+    font-family: "Times New Roman", serif;
+    font-size: 40px;
+}
+
+/* My first class to make the white sections stand out */
+.content-box {
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 15px auto;
+    width: 80%;
+    box-shadow: 4px 4px 0px #cccccc;
+}
+
+
+/* My second class for the tiny boxes that show the colors */
+.color-swatch {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #000;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Removing the bullet points from the list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Adding space between the list items */
+li {
+    margin-bottom: 10px;
+}
