@@ -1,46 +1,60 @@
-/* Putting some space around the edges of the page */
+/* basic page stuff */
 body {
     background-color:#f2f2f2;
     font-family: Arial, sans-serif;
-    line-height: 1.5;
     padding: 30px;
+    line-height: 1.5;
 }
-/* My ID style for the main title at the top */
+
+/*sadiyah main title */
 #top-title {
     text-align: center;
     color:#68054e;
     font-family: "Times New Roman", serif;
-    font-size: 40px;
+    font-size: 38px;
 }
 
-/* My first class to make the white sections stand out */
+/*sadiyah sections */
 .content-box {
     background-color: white;
     border: 1px solid black;
     padding: 20px;
     margin: 15px auto;
     width: 80%;
-    box-shadow: 4px 4px 0px #cccccc;
+    box-shadow: 4px 4px 0px #ccc;
 }
 
+/* sadiyah font examples */
+.heading-sample {
+    font-family: "Times New Roman", serif;
+    font-size: 20px;
+}
 
-/* My second class for the tiny boxes that show the colors */
+.body-sample {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/*sadiyah colors */
 .color-swatch {
     width: 20px;
     height: 20px;
     display: inline-block;
     border: 1px solid #000;
     margin-right: 10px;
-    vertical-align: middle;
 }
 
-/* Removing the bullet points from the list */
+/* i sadiyah removed bullets and add spacing */
 ul {
     list-style: none;
     padding: 0;
 }
 
-/* Adding space between the list items */
 li {
     margin-bottom: 10px;
+}
+
+/* sadiyah main text color */
+.main-text-color {
+    color: #68054e;
 }
